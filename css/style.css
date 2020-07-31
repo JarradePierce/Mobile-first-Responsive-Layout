@@ -1,5 +1,5 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer{
@@ -64,7 +64,6 @@ footer{
 .main-nav a{
   text-decoration: none;
   color: #000;
-  padding: auto;
 }
 
 .main-nav ul{
@@ -129,7 +128,7 @@ footer{
 }
 
 
-@media(min-width:720px){
+@media(min-width:768px){
 
   footer{
     width: 100%;

@@ -2,12 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <title>Mobile first responsive layout project</title>
   </head>
 <body>
+<section id='home'>
   <div class="header-wrapper clearfix">
     <header class='main-header'>
       <h1 class='name'>Student Name</h1>
@@ -15,20 +18,22 @@
 
     <div class="main-nav-container">
       <ul class='main-nav'>
-        <li><a href='#'>HOME</a></li>
-        <li><a href='#'>PORTFOLIO</a></li>
-        <li><a href='#'>CONTACT</a></li>
+        <li><a href='#home'>HOME</a></li>
+        <li><a href='#projects'>PORTFOLIO</a></li>
+        <li><a href='#contact'>CONTACT</a></li>
       </ul>
-    </div>
+  </div>
 
     <div class="heading-container">
       <img class='portfolio-img' src="responsive_layout_v3/images/responsive-layout-profile.png" alt="portfolio image">
       <p class='intro-text'>Hi im a frontend developer who loves responsive design and css. I recently finished a degree in front-end web development and im excited to put my skills to use.</p>
     </div>
   </div>
+</section>
 
   <h2 class='page-name'>Portfolio</h2>
     <!-- content columns -->
+  <section id='projects'>
     <div class="col-container clearfix">
 
       <div class="col row-1 row-w1">
@@ -68,22 +73,24 @@
       </div>
 
     </div>
+  </section>
 
   <footer>
     <h3>Contact</h3>
     <p>If you are interested I chatting or want more information about what ive been working on I'd love to hear from you.</p>
     <p>Phone +(111)555-1234</p>
     <p>Email email@yoursite.com</p>
-
+    <section id='contact'>
     <div class="secondary-nav-container clearfix">
       <p class='name-footer'>student name</p>
-      <ul class='secondary-nav'>
-        <li><a href='#'>HOME</a></li>
-        <li><a href='#'>PORTFOLIO</a></li>
-        <li><a href='#'>CONTACT</a></li>
+      <ul class="secondary-nav">
+        <li><a href='#home'>HOME</a></li>
+        <li><a href='#projects'>PORTFOLIO</a></li>
+        <li><a href='#contact'>CONTACT</a></li>
       </ul>
       <h4 class='back-to-top'><a href='index.html'>Back to top</a></h4>
     </div>
+  </section>
   </footer>
 
   </body>
